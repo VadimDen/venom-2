@@ -52,3 +52,48 @@ body {
   line-height: 140%;
   color: rgba(255, 255, 255, 0.8);
 }
+
+button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-icon,
+.button-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.button-text {
+  font-size: 14px;
+  line-height: 16px;
+  margin-left: 10px;
+}
+
+.button-primary {
+  color: #8d0019;
+  background-color: #fff;
+}
+
+.button-link {
+  margin-left: 50px;
+  color: #fff;
+}
+
+.button-group {
+  margin-top: 70px;
+}
+
+.photo-venom {
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+.blood {
+  background: url("/img/blood1.png") no-repeat top right,
+    #14131a url(/img/back.png) no-repeat center center / 100%;
+}
