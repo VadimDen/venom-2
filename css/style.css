@@ -97,3 +97,14 @@ button {
   background: url("/img/blood1.png") no-repeat top right,
     #14131a url(/img/back.png) no-repeat center center / 100%;
 }
+@media screen and (max-width:1000px) {
+  .photo-venom {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    width: 300px;
+  }
+  .film-logo{
+    width: 300px;
+  }
+}
