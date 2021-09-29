@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Venom 2 - сайт фильма</title>
+  <title>Главная</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
@@ -19,6 +19,14 @@
           <img width="46" height="71" src="img/logo.png" class="logo-image">
         </a>
         <nav class="nav">
+          <button class="menu-button">
+            <span class="menu-button-text">меню</span>
+            <img src="img/menu-icon1.svg" alt="menu" class="menu-button-icon">
+          </button>
+          <button class="menu-close">
+            <span class="menu-close-text">закрыть</span>
+            <img src="img/right-arrow.svg" alt="close" class="menu-close-icon">
+          </button>
           <ul class="nav-menu">
             <li class="nav-menu-item">
               <a href="about.html" class="nav-menu-link">о фильме</a>
@@ -37,7 +45,7 @@
       </header>
       <div class="hero">
         <div class="hero-text">
-          <span class="date">16 сентября 2021</span>
+          <span class="date">14 октября 2021</span>
           <img src="img/Venom 2.svg" alt="" class="film-logo">
           <p class="description">
             В настырном журналисте по-прежнему живет симбиот. Том Харди в образе обаятельного суперзлодея из комиксов Marvel.
@@ -47,11 +55,13 @@
       </div>
       <!-- /.hero -->
       <div class="button-group">
-        <button class="button-primary">
-          <img width="15" src="img/fi-rr-play.svg" alt="icon: play" class="button-icon">
-          <span class="button-text">смотреть трейлер</span>
-        </button>
-        <a href="" class="button-link">
+        <a data-fancybox href="https://www.youtube.com/watch?v=Othd8W8o3t0&t">
+          <button class="button-primary">
+            <img width="15" src="img/fi-rr-play.svg" alt="icon: play" class="button-icon">
+            <span class="button-text">смотреть трейлер</span>
+          </button>
+        </a>
+        <a href="https://multiplex.ua/ru/movie/353092" class="button-link">
           <img width="15" src="img/fi-rr-ticket 1.svg" alt="icon: ticket" class="button-ticket">
           <span class="button-text">билеты на премьеру</span>
         </a>
@@ -60,5 +70,9 @@
   </div>
   <!-- /.container -->
   <img src="img/venom.png" alt="" class="photo-venom">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <script src="js/main.js"></script>
 </body>
 </html>
